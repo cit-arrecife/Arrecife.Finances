@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Arrecife.Finances.Database", "Arrecife.Finanzas.Database\Arrecife.Finances.Database.sqlproj", "{E5D688C2-BF01-4E94-8F78-59F02A20C286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrecife.Finances.WindowsService", "Arrecife.Finanzas.WindowsService\Arrecife.Finances.WindowsService.csproj", "{A4782254-379D-42DF-A127-7D520093BBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrecife.Finances.Logic", "Arrecife.Finances.Logic\Arrecife.Finances.Logic.csproj", "{B4F6CB43-D788-4583-B087-5D302F771351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrecife.Finances.WPF", "Arrecife.Finances.WPF\Arrecife.Finances.WPF.csproj", "{C31F82BD-E0FF-4196-A8D7-7FF0A2F9AC50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installers", "Installers", "{6C165664-7B88-4EC1-8737-E4114C0F29BD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Arrecife.Finances.Installer", "Arrecife.Finances.Installer\Arrecife.Finances.Installer.vdproj", "{91FF26DE-42BA-4CB6-8892-4545D4A3B4C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5D688C2-BF01-4E94-8F78-59F02A20C286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D688C2-BF01-4E94-8F78-59F02A20C286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D688C2-BF01-4E94-8F78-59F02A20C286}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E5D688C2-BF01-4E94-8F78-59F02A20C286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D688C2-BF01-4E94-8F78-59F02A20C286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D688C2-BF01-4E94-8F78-59F02A20C286}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A4782254-379D-42DF-A127-7D520093BBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4782254-379D-42DF-A127-7D520093BBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4782254-379D-42DF-A127-7D520093BBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4782254-379D-42DF-A127-7D520093BBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F6CB43-D788-4583-B087-5D302F771351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F6CB43-D788-4583-B087-5D302F771351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F6CB43-D788-4583-B087-5D302F771351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F6CB43-D788-4583-B087-5D302F771351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31F82BD-E0FF-4196-A8D7-7FF0A2F9AC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31F82BD-E0FF-4196-A8D7-7FF0A2F9AC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31F82BD-E0FF-4196-A8D7-7FF0A2F9AC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31F82BD-E0FF-4196-A8D7-7FF0A2F9AC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FF26DE-42BA-4CB6-8892-4545D4A3B4C9}.Debug|Any CPU.ActiveCfg = Debug
+		{91FF26DE-42BA-4CB6-8892-4545D4A3B4C9}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91FF26DE-42BA-4CB6-8892-4545D4A3B4C9} = {6C165664-7B88-4EC1-8737-E4114C0F29BD}
+	EndGlobalSection
+EndGlobal

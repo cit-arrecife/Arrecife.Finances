@@ -1,0 +1,13 @@
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\bin\Debug\Arrecife.Finances.WPF.exe.config
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\bin\Debug\Arrecife.Finances.WPF.exe
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\bin\Debug\Arrecife.Finances.WPF.pdb
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\Arrecife.Finances.WPF.csprojResolveAssemblyReference.cache
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\MainWindow.baml
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\App.g.cs
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\Arrecife.Finances.WPF_MarkupCompile.cache
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\Arrecife.Finances.WPF.g.resources
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\Arrecife.Finances.WPF.Properties.Resources.resources
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\Arrecife.Finances.WPF.csproj.GenerateResource.Cache
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\Arrecife.Finances.WPF.exe
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finances.WPF\obj\Debug\Arrecife.Finances.WPF.pdb

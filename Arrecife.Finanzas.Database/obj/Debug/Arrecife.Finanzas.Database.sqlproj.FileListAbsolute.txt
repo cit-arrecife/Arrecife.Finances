@@ -1,0 +1,16 @@
+c:\users\jose.benavides\documents\visual studio 2013\Projects\Arrecife.Finanzas.Database\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.dacpac
+c:\users\jose.benavides\documents\visual studio 2013\Projects\Arrecife.Finanzas.Database\Arrecife.Finanzas.Database\obj\Debug\Model.xml
+c:\users\jose.benavides\documents\visual studio 2013\Projects\Arrecife.Finanzas.Database\Arrecife.Finanzas.Database\obj\Debug\refactor.xml
+c:\users\jose.benavides\documents\visual studio 2013\Projects\Arrecife.Finanzas.Database\Arrecife.Finanzas.Database\obj\Debug\postdeploy.sql
+c:\users\jose.benavides\documents\visual studio 2013\Projects\Arrecife.Finanzas.Database\Arrecife.Finanzas.Database\obj\Debug\predeploy.sql
+c:\users\jose.benavides\documents\visual studio 2013\Projects\Arrecife.Finanzas.Database\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.dll
+c:\users\jose.benavides\documents\visual studio 2013\Projects\Arrecife.Finanzas.Database\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.pdb
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.dacpac
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.dll
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.pdb
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\Model.xml
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\refactor.xml
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\postdeploy.sql
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\predeploy.sql
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.dll
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.pdb

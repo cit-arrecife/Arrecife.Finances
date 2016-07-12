@@ -1,0 +1,9 @@
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finances.Database.dacpac
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.dll
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.pdb
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.dll
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.pdb
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\Model.xml
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\refactor.xml
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\postdeploy.sql
+C:\Users\jose.benavides\Documents\Visual Studio 2013\Projects\Arrecife.Finanzas\Arrecife.Finanzas.Database\obj\Debug\predeploy.sql
