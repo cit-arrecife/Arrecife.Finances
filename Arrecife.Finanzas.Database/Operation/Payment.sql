@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Operation].[Payment]
 (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[IdPayment] INT NOT NULL PRIMARY KEY IDENTITY, 
     [CitizenshipCard] INT NOT NULL, 
     [Receipt] INT NOT NULL, 
     [ValueReceipt] DECIMAL(10) NOT NULL, 
@@ -16,7 +16,7 @@ CREATE INDEX [Payment_CitizenshipCard] ON [Operation].[Payment] ([CitizenshipCar
 
 GO
 
-CREATE INDEX [Payment_Id] ON [Operation].[Payment] ([Id])
+CREATE INDEX [Payment_Id] ON [Operation].[Payment] ([IdPayment])
 
 GO
 

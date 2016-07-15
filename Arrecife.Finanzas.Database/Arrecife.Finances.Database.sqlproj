@@ -64,6 +64,10 @@
     <Build Include="Operation\Payment.sql" />
     <Build Include="Operation.sql" />
     <Build Include="Customer.sql" />
+    <Build Include="Operation\Receipt.sql" />
+    <Build Include="Operation\Product.sql" />
+    <Build Include="Customer\User.sql" />
+    <Build Include="Customer\SecretQuestion.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Arrecife.Finances.Database.refactorlog" />

@@ -21,4 +21,67 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ValueReceipt" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c54489c8-223f-43a5-93cd-ce15fae6973e" ChangeDateTime="07/15/2016 01:56:35">
+    <Property Name="ElementName" Value="[Operation].[Payment].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Payment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPayment" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="26dada45-6635-44fe-93f8-644ecb9df94b" ChangeDateTime="07/15/2016 02:00:55">
+    <Property Name="ElementName" Value="[Operation].[Sales].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSales" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a7909f6d-3bd6-4496-bbc3-cde13e132634" ChangeDateTime="07/15/2016 02:11:49">
+    <Property Name="ElementName" Value="[Operation].[Receipt].[IdSales]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Receipt]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdReceipt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd560053-8eee-4119-886d-412bab3adbc9" ChangeDateTime="07/15/2016 02:20:15">
+    <Property Name="ElementName" Value="[Operation].[Product].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Product]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdProduct" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4db8a4ce-de15-4319-aac2-1bc2f47f3986" ChangeDateTime="07/15/2016 02:30:57">
+    <Property Name="ElementName" Value="[Operation].[Product].[Quantity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Product]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Stock" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bed16e54-682d-473b-9861-9d720dd69ece" ChangeDateTime="07/15/2016 02:46:11">
+    <Property Name="ElementName" Value="[Customer].[User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdUser" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e37bde0-ea6e-45c5-b198-a7a52aadc873" ChangeDateTime="07/15/2016 02:49:31">
+    <Property Name="ElementName" Value="[Customer].[User].[Creation]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreationDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="769fd86b-e3af-47d8-9bd0-d040069ccdaa" ChangeDateTime="07/15/2016 02:52:14">
+    <Property Name="ElementName" Value="[Customer].[User].[SecretQuestion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SecretQuestionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="92cc410e-2460-4af2-bf72-40a7a3763b53" ChangeDateTime="07/15/2016 02:57:24">
+    <Property Name="ElementName" Value="[Customer].[SecretQuestion].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[SecretQuestion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSecretQuestion" />
+  </Operation>
 </Operations>
