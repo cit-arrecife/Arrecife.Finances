@@ -84,4 +84,95 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="IdSecretQuestion" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="6adc7a3e-e952-45f4-9300-1fc2015b1259" ChangeDateTime="07/21/2016 19:16:15">
+    <Property Name="ElementName" Value="[dbo].[Person].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPerson" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9cf36e56-9f58-486c-835c-7b7bc1ce3803" ChangeDateTime="07/21/2016 19:22:45">
+    <Property Name="ElementName" Value="[Customer].[User].[CitizenshipCardNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DocumentNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7a429240-f91c-45da-ab89-6f274442feed" ChangeDateTime="07/21/2016 19:23:43">
+    <Property Name="ElementName" Value="[Customer].[User].[CreationDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InputSystemDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="99a398a6-5deb-41f1-aa79-777c1c82afe2" ChangeDateTime="07/21/2016 19:23:54">
+    <Property Name="ElementName" Value="[Customer].[User].[ModificationDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastModificationDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b0f1a094-d07f-4722-a50a-0ef2a151b2da" ChangeDateTime="07/21/2016 19:32:45">
+    <Property Name="ElementName" Value="[dbo].[ReceiptProduct].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ReceiptProduct]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdReceiptProduct" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3e9df0f8-669b-4c55-bc38-6b245ab41bb6" ChangeDateTime="07/21/2016 19:35:51">
+    <Property Name="ElementName" Value="[Operation].[Receipt].[IdClient]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Receipt]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPerson" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c042eb1b-833a-4edb-a871-abaf18935e53" ChangeDateTime="07/21/2016 19:35:59">
+    <Property Name="ElementName" Value="[Operation].[Receipt].[Total]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Receipt]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdUser" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1e6a4523-fa33-4219-a6aa-d6e96f5e6146" ChangeDateTime="07/21/2016 19:36:23">
+    <Property Name="ElementName" Value="[Operation].[Receipt].[Products]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Receipt]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdReceiptProduct" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="353311c6-6140-4d61-9fd6-bc9bb5105f1f" ChangeDateTime="07/21/2016 19:40:37">
+    <Property Name="ElementName" Value="[Operation].[Receipt].[IdReceiptProduct]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Receipt]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Total" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a80f95f3-458f-4c5d-a48f-288e78cfa9df" ChangeDateTime="07/21/2016 19:45:16">
+    <Property Name="ElementName" Value="[Operation].[Product].[ModificationDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Product]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastModificationDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b46f7d97-9311-4c46-b35f-d8acf941ea63" ChangeDateTime="07/21/2016 19:49:33">
+    <Property Name="ElementName" Value="[Operation].[Product].[Product_]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[Operation].[Product]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Product_MinimalAmountStock]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fab53053-d8e7-4303-b887-023b179659be" ChangeDateTime="07/21/2016 20:04:38">
+    <Property Name="ElementName" Value="[Operation].[Payment].[Receipt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Payment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdReceipt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6712df66-e1a3-4f10-b18b-25302f36651b" ChangeDateTime="07/21/2016 20:05:22">
+    <Property Name="ElementName" Value="[Operation].[Payment].[ValueReceipt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Operation].[Payment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PaymentValue" />
+  </Operation>
 </Operations>

@@ -59,17 +59,27 @@
     <Folder Include="Properties" />
     <Folder Include="Customer" />
     <Folder Include="Operation" />
+    <Folder Include="Customer\Tables" />
+    <Folder Include="Operation\Tables" />
+    <Folder Include="Operation\Scripts" />
+    <Folder Include="Customer\Scripts" />
+    <Folder Include="Customer\Stored Procedures" />
+    <Folder Include="Operation\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Operation\Payment.sql" />
     <Build Include="Operation.sql" />
     <Build Include="Customer.sql" />
-    <Build Include="Operation\Receipt.sql" />
-    <Build Include="Operation\Product.sql" />
-    <Build Include="Customer\User.sql" />
-    <Build Include="Customer\SecretQuestion.sql" />
+    <Build Include="Customer\Tables\Person.sql" />
+    <Build Include="Customer\Tables\SecretQuestion.sql" />
+    <Build Include="Customer\Tables\User.sql" />
+    <Build Include="Operation\Tables\Payment.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Arrecife.Finances.Database.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Operation\Tables\Product.sql" />
+    <Build Include="Operation\Tables\Receipt.sql" />
+    <Build Include="Operation\Tables\ReceiptProduct.sql" />
   </ItemGroup>
 </Project>
