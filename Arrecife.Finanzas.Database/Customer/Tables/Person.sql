@@ -1,6 +1,6 @@
-﻿CREATE TABLE [dbo].[Person]
+﻿CREATE TABLE [Customer].[Person]
 (
-	[IdPerson] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[IdPerson] INT NOT NULL  IDENTITY, 
     [DocumentNumber] INT NOT NULL, 
     [Names] VARCHAR(50) NOT NULL, 
     [LastNames] VARCHAR(50) NOT NULL, 
@@ -8,27 +8,28 @@
     [Email] VARCHAR(50) NOT NULL, 
     [Type] BIT NOT NULL, 
     [InputSystemDate] DATETIME NOT NULL, 
-    [IdUser] INT NOT NULL
+    [IdUser] INT NOT NULL, 
+    CONSTRAINT [PK_Person] PRIMARY KEY ([IdPerson])
 )
 
 GO
 
-CREATE INDEX [Person_IdPerson] ON [dbo].[Person] ([IdPerson])
+CREATE INDEX [Person_IdPerson] ON [Customer].[Person] ([IdPerson])
 
 GO
 
-CREATE INDEX [Person_IdUser] ON [dbo].[Person] ([IdUser])
+CREATE INDEX [Person_IdUser] ON [Customer].[Person] ([IdUser])
 
 GO
 
-CREATE INDEX [Person_DocumentNumber] ON [dbo].[Person] ([DocumentNumber])
+CREATE INDEX [Person_DocumentNumber] ON [Customer].[Person] ([DocumentNumber])
 
 GO
 
-CREATE INDEX [Person_PhoneNumber] ON [dbo].[Person] ([PhoneNumber])
+CREATE INDEX [Person_PhoneNumber] ON [Customer].[Person] ([PhoneNumber])
 
 GO
 
-CREATE INDEX [Person_Type] ON [dbo].[Person] ([Type])
+CREATE INDEX [Person_Type] ON [Customer].[Person] ([Type])
 
 GO

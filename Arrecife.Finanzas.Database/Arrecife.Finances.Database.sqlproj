@@ -82,4 +82,7 @@
     <Build Include="Operation\Tables\Receipt.sql" />
     <Build Include="Operation\Tables\ReceiptProduct.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Arrecife.Finances.Database.publish.xml" />
+  </ItemGroup>
 </Project>

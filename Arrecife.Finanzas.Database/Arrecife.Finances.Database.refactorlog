@@ -175,4 +175,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="PaymentValue" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="154161dd-af00-469d-9885-c173d4502fb9" ChangeDateTime="07/22/2016 15:25:56">
+    <Property Name="ElementName" Value="[Customer].[User].[SecretQuestionId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Customer].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSecretQuestion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="09fcca2b-c414-4ec0-8b6f-b6c41b0f98cd" ChangeDateTime="07/22/2016 15:27:30">
+    <Property Name="ElementName" Value="[Operation].[FK_Payment_Payment]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[Operation].[Payment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Payment_Receipt]" />
+  </Operation>
 </Operations>

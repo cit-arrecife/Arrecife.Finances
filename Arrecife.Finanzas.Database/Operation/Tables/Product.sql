@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Operation].[Product]
 (
-	[IdProduct] INT NOT NULL PRIMARY KEY, 
+	[IdProduct] INT NOT NULL , 
     [Code] INT NOT NULL,
     [UserId] INT NOT NULL, 
     [Name] VARCHAR(50) NOT NULL, 
@@ -10,6 +10,8 @@
     [Description] VARCHAR(150) NOT NULL, 
     [InputSystemDate] DATETIME NOT NULL, 
     [LastModificationDate] DATETIME NOT NULL, 
+    CONSTRAINT [PK_Product] PRIMARY KEY ([IdProduct]), 
+    CONSTRAINT [FK_Product_User] FOREIGN KEY ([UserId]) REFERENCES [Customer].[User] ([IdUser]), 
 )
 
 GO
