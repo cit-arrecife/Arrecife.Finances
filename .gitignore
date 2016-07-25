@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 Arrecife.Finanzas.Database/Arrecife.Finances.Database.dbmdl
+=======
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Arrecife.Finanzas.Database/Arrecife.Finances.Database.dbmdl
+>>>>>>> origin/master
