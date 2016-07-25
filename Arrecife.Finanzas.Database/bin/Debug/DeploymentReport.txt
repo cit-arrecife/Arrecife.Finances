@@ -1,0 +1,59 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles problemas de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [Customer] (Esquema)
+       [Operation] (Esquema)
+       [Customer].[User] (Tabla)
+       [Customer].[User].[User_IdUser] (Índice)
+       [Customer].[User].[User_Nick] (Índice)
+       [Customer].[User].[User_Person] (Índice)
+       [Customer].[User].[User_Licence] (Índice)
+       [Customer].[SecretQuestion] (Tabla)
+       [Customer].[SecretQuestion].[SecretQuestion_Id] (Índice)
+       [Customer].[Person] (Tabla)
+       [Customer].[Person].[Person_IdPerson] (Índice)
+       [Customer].[Person].[Person_IdUser] (Índice)
+       [Customer].[Person].[Person_DocumentNumber] (Índice)
+       [Customer].[Person].[Person_PhoneNumber] (Índice)
+       [Customer].[Person].[Person_Type] (Índice)
+       [Operation].[ReceiptProduct] (Tabla)
+       [Operation].[ReceiptProduct].[ReceiptProduct_IdProduct] (Índice)
+       [Operation].[ReceiptProduct].[ReceiptProduct_IdReceipt] (Índice)
+       [Operation].[ReceiptProduct].[ReceiptProduct_Quantity] (Índice)
+       [Operation].[Receipt] (Tabla)
+       [Operation].[Receipt].[Receipt_IdReceipt] (Índice)
+       [Operation].[Receipt].[Receipt_IdPerson] (Índice)
+       [Operation].[Receipt].[Receipt_IdUser] (Índice)
+       [Operation].[Receipt].[Receipt_State] (Índice)
+       [Operation].[Product] (Tabla)
+       [Operation].[Product].[Product_IdProduct] (Índice)
+       [Operation].[Product].[Product_Name] (Índice)
+       [Operation].[Product].[Product_Code] (Índice)
+       [Operation].[Product].[Product_Stock] (Índice)
+       [Operation].[Product].[Product_MinimalAmountStock] (Índice)
+       [Operation].[Product].[Product_Price] (Índice)
+       [Operation].[Product].[Product_UserId] (Índice)
+       [Operation].[Payment] (Tabla)
+       [Operation].[Payment].[Payment_Id] (Índice)
+       [Operation].[Payment].[Payment_Receipt] (Índice)
+       [Operation].[Payment].[Payment_UserId] (Índice)
+       [Operation].[Payment].[Payment_InputSystemDate] (Índice)
+       [Customer].[FK_User_Person] (Clave externa)
+       [Customer].[FK_User_SecretQuestion] (Clave externa)
+       [Operation].[FK_ReceiptProduct_Product] (Clave externa)
+       [Operation].[FK_ReceiptProduct_Receipt] (Clave externa)
+       [Operation].[FK_Receipt_Person] (Clave externa)
+       [Operation].[FK_Receipt_User] (Clave externa)
+       [Operation].[FK_Product_User] (Clave externa)
+       [Operation].[FK_Payment_Receipt] (Clave externa)
+
+** Acciones de compatibilidad

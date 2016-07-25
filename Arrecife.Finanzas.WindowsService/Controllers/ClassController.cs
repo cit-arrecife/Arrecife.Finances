@@ -8,15 +8,11 @@
 // ----------------------------------------------------------------------
 namespace Arrecife.Finances.WindowsService.Controllers
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
+    using Newtonsoft.Json.Linq;
     using System.Net;
     using System.Net.Http;
     using System.Text;
-    using System.Threading.Tasks;
     using System.Web.Http;
-    using Newtonsoft.Json.Linq;
 
     /// <summary>
     /// Servicio REST para su respectivo consumo.

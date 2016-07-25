@@ -8,18 +8,10 @@
 // ----------------------------------------------------------------------
 namespace Arrecife.Finances.WindowsService
 {
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.Data;
-    using System.Diagnostics;
-    using System.Linq;
+    using Arrecife.Finances.WindowsService.Properties;
     using System.ServiceProcess;
-    using System.Text;
-    using System.Threading.Tasks;
     using System.Web.Http;
     using System.Web.Http.SelfHost;
-    using Arrecife.Finances.WindowsService.Properties;
 
     /// <summary>
     /// Servicio de windows para el uso de la logica y servicio REST.

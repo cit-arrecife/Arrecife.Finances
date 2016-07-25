@@ -12,3 +12,8 @@ C:\Users\jose.benavides\Documents\GitHub\Arrecife.Finances\Arrecife.Finanzas.Dat
 C:\Users\jose.benavides\Documents\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.pdb
 C:\Users\jose.benavides\Documents\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.dll
 C:\Users\jose.benavides\Documents\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.pdb
+C:\Users\jfben\OneDrive\Documentos\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finances.Database.dacpac
+C:\Users\jfben\OneDrive\Documentos\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.dll
+C:\Users\jfben\OneDrive\Documentos\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\bin\Debug\Arrecife.Finanzas.Database.pdb
+C:\Users\jfben\OneDrive\Documentos\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.dll
+C:\Users\jfben\OneDrive\Documentos\GitHub\Arrecife.Finances\Arrecife.Finanzas.Database\obj\Debug\Arrecife.Finanzas.Database.pdb

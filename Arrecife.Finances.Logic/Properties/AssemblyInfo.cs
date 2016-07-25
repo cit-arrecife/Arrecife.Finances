@@ -7,7 +7,6 @@
 // <summary>Clase Assembly.</summary>
 // ----------------------------------------------------------------------
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // La información general sobre un ensamblado se controla mediante el siguiente
